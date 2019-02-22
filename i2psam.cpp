@@ -604,8 +604,21 @@ const std::string& StreamSession::getSAMVersion() const
     return socket_.getVersion();
 }
 
-//--------------------------------------------------------------------------------------------------
+const std::string& StreamSession::getSAMMinVer() const{
+    #ifdef DEBUG_ON_STDOUT
+    std::cout << "getSAMMinVer: " << socket_.minVer_ << std::endl;
+    #endif // DEBUG_ON_STDOUT
+    return socket_.minVer_;
+}
 
+const std::string& StreamSession::getSAMMaxVer() const{
+    #ifdef DEBUG_ON_STDOUT
+    std::cout << "getSAMMinVer: " << socket_.maxVer_ << std::endl;
+    #endif // DEBUG_ON_STDOUT
+    return socket_.maxVer_;
+}
+
+//--------------------------------------------------------------------------------------------------
 
 std::string Message::createSAMRequest(const char* format, ...)
 {
