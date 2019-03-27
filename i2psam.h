@@ -225,7 +225,7 @@ public:
     const sockaddr_in& getAddress() const;
 
     const std::string minVer_ = "3.0";
-    const std::string maxVer_ = "3.0";
+    const std::string maxVer_ = "3.1";
 
 private:
     SOCKET socket_;
