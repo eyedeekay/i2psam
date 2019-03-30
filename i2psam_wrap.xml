@@ -1,0 +1,1803 @@
+<?xml version="1.0" ?> 
+<top id="1" addr="0x7fe878cf7670" >
+    <attributelist id="2" addr="0x7fe878cf7670" >
+        <attribute name="outfile" value="i2psam_wrap.xml" id="3" addr="0x7fe878d18ab0" />
+        <attribute name="name" value="i2psam" id="4" addr="0x7fe878d18ab0" />
+        <attribute name="module" value="i2psam" id="5" addr="0x7fe878d173b0" />
+        <attribute name="inputfile" value="i2psam.swigcxx" id="6" addr="0x7fe878d18ab0" />
+        <attribute name="classes" value="0x7fe878d11d10" id="7" addr="0x7fe878d11d10" />
+        <attribute name="infile" value="i2psam.swigcxx" id="8" addr="0x7fe878d18ab0" />
+        <attribute name="outfile_h" value="i2psam_wrap.h" id="9" addr="0x7fe878d18ab0" />
+    </attributelist >
+
+    <include id="10" addr="0x7fe878d07ed0" >
+        <attributelist id="11" addr="0x7fe878d07ed0" >
+            <attribute name="name" value="/usr/local/share/swig/4.0.0/swig.swg" id="12" addr="0x7fe878d18ab0" />
+        </attributelist >
+
+        <include id="13" addr="0x7fe878d07f90" >
+            <attributelist id="14" addr="0x7fe878d07f90" >
+                <attribute name="name" value="/usr/local/share/swig/4.0.0/swigwarnings.swg" id="15" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <include id="16" addr="0x7fe878d0a0d0" >
+                <attributelist id="17" addr="0x7fe878d0a0d0" >
+                    <attribute name="name" value="/usr/local/share/swig/4.0.0/swigwarn.swg" id="18" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </include >
+        </include >
+        <include id="19" addr="0x7fe878d0a2d0" >
+            <attributelist id="20" addr="0x7fe878d0a2d0" >
+                <attribute name="name" value="/usr/local/share/swig/4.0.0/swigfragments.swg" id="21" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <fragment id="22" addr="0x7fe878d0a410" >
+                <attributelist id="23" addr="0x7fe878d0a410" >
+                    <attribute name="value" value="&lt;float.h>" id="24" addr="0x7fe878d18ab0" />
+                    <attribute name="code" value="&#10;#include &lt;float.h>&#10;" id="25" addr="0x7fe878d18ab0" />
+                    <attribute name="section" value="header" id="26" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="27" addr="0x7fe878d0a5b0" >
+                <attributelist id="28" addr="0x7fe878d0a5b0" >
+                    <attribute name="value" value="&lt;limits.h>" id="29" addr="0x7fe878d18ab0" />
+                    <attribute name="code" value="&#10;#include &lt;limits.h>&#10;#if !defined(SWIG_NO_LLONG_MAX)&#10;# if !defined(LLONG_MAX) &amp;&amp; defined(__GNUC__) &amp;&amp; defined (__LONG_LONG_MAX__)&#10;#   define LLONG_MAX __LONG_LONG_MAX__&#10;#   define LLONG_MIN (-LLONG_MAX - 1LL)&#10;#   define ULLONG_MAX (LLONG_MAX * 2ULL + 1ULL)&#10;# endif&#10;#endif&#10;" id="30" addr="0x7fe878d18ab0" />
+                    <attribute name="section" value="header" id="31" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="32" addr="0x7fe878d0a6f0" >
+                <attributelist id="33" addr="0x7fe878d0a6f0" >
+                    <attribute name="value" value="&lt;math.h>" id="34" addr="0x7fe878d18ab0" />
+                    <attribute name="code" value="&#10;#include &lt;math.h>&#10;" id="35" addr="0x7fe878d18ab0" />
+                    <attribute name="section" value="header" id="36" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="37" addr="0x7fe878d0a810" >
+                <attributelist id="38" addr="0x7fe878d0a810" >
+                    <attribute name="value" value="&lt;stddef.h>" id="39" addr="0x7fe878d18ab0" />
+                    <attribute name="code" value="&#10;#include &lt;stddef.h>&#10;" id="40" addr="0x7fe878d18ab0" />
+                    <attribute name="section" value="header" id="41" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="42" addr="0x7fe878d0a930" >
+                <attributelist id="43" addr="0x7fe878d0a930" >
+                    <attribute name="value" value="&lt;stdio.h>" id="44" addr="0x7fe878d18ab0" />
+                    <attribute name="code" value="&#10;#include &lt;stdio.h>&#10;#if defined(_MSC_VER) || defined(__BORLANDC__) || defined(_WATCOM)&#10;# ifndef snprintf&#10;#  define snprintf _snprintf&#10;# endif&#10;#endif&#10;" id="45" addr="0x7fe878d18ab0" />
+                    <attribute name="section" value="header" id="46" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="47" addr="0x7fe878d0aa50" >
+                <attributelist id="48" addr="0x7fe878d0aa50" >
+                    <attribute name="value" value="&lt;stdlib.h>" id="49" addr="0x7fe878d18ab0" />
+                    <attribute name="code" value="&#10;#include &lt;stdlib.h>&#10;#ifdef _MSC_VER&#10;# ifndef strtoull&#10;#  define strtoull _strtoui64&#10;# endif&#10;# ifndef strtoll&#10;#  define strtoll _strtoi64&#10;# endif&#10;#endif&#10;" id="50" addr="0x7fe878d18ab0" />
+                    <attribute name="section" value="header" id="51" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="52" addr="0x7fe878d0ab70" >
+                <attributelist id="53" addr="0x7fe878d0ab70" >
+                    <attribute name="value" value="&lt;wchar.h>" id="54" addr="0x7fe878d18ab0" />
+                    <attribute name="code" value="&#10;#include &lt;wchar.h>&#10;#include &lt;limits.h>&#10;#ifndef WCHAR_MIN&#10;#  define WCHAR_MIN 0&#10;#endif&#10;#ifndef WCHAR_MAX&#10;#  define WCHAR_MAX 65535&#10;#endif&#10;" id="55" addr="0x7fe878d18ab0" />
+                    <attribute name="section" value="header" id="56" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="57" addr="0x7fe878d0ac90" >
+                <attributelist id="58" addr="0x7fe878d0ac90" >
+                    <attribute name="value" value="&lt;algorithm>" id="59" addr="0x7fe878d18ab0" />
+                    <attribute name="code" value="&#10;#include &lt;algorithm>&#10;" id="60" addr="0x7fe878d18ab0" />
+                    <attribute name="section" value="header" id="61" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="62" addr="0x7fe878d0adb0" >
+                <attributelist id="63" addr="0x7fe878d0adb0" >
+                    <attribute name="value" value="&lt;stdexcept>" id="64" addr="0x7fe878d18ab0" />
+                    <attribute name="code" value="&#10;#include &lt;stdexcept>&#10;" id="65" addr="0x7fe878d18ab0" />
+                    <attribute name="section" value="header" id="66" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="67" addr="0x7fe878d0aed0" >
+                <attributelist id="68" addr="0x7fe878d0aed0" >
+                    <attribute name="value" value="&lt;string>" id="69" addr="0x7fe878d18ab0" />
+                    <attribute name="code" value="&#10;#include &lt;string>&#10;" id="70" addr="0x7fe878d18ab0" />
+                    <attribute name="section" value="header" id="71" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </fragment >
+            <fragment id="72" addr="0x7fe878d0aff0" >
+                <attributelist id="73" addr="0x7fe878d0aff0" >
+                    <attribute name="value" value="&lt;memory>" id="74" addr="0x7fe878d18ab0" />
+                    <attribute name="code" value="&#10;#include &lt;memory>&#10;" id="75" addr="0x7fe878d18ab0" />
+                    <attribute name="section" value="header" id="76" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </fragment >
+        </include >
+        <typemap id="77" addr="0x7fe878d0b210" >
+            <attributelist id="78" addr="0x7fe878d0b210" >
+                <attribute name="code" value="free($1);" id="79" addr="0x7fe878d18ab0" />
+                <attribute name="method" value="newfree" id="80" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <typemapitem id="81" addr="0x7fe878d0b0f0" >
+                <attributelist id="82" addr="0x7fe878d0b0f0" >
+                    <parmlist id="83" addr="0x7fe878d0b130" >
+                        <parm id="84">
+                            <attributelist id="85" addr="0x7fe878d0b130" >
+                                <attribute name="type" value="p.char" id="86" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="87" addr="0x7fe878d0b410" >
+            <attributelist id="88" addr="0x7fe878d0b410" >
+                <attribute name="code" value="{&#10;  free($1);&#10;  if ($input) {&#10;     $1 = ($1_type) malloc(strlen((const char *)$input)+1);&#10;     strcpy((char *)$1, (const char *)$input);&#10;  } else {&#10;     $1 = 0;&#10;  }&#10;}" id="89" addr="0x7fe878d18ab0" />
+                <attribute name="method" value="memberin" id="90" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <typemapitem id="91" addr="0x7fe878d0b350" >
+                <attributelist id="92" addr="0x7fe878d0b350" >
+                    <parmlist id="93" addr="0x7fe878d0b390" >
+                        <parm id="94">
+                            <attributelist id="95" addr="0x7fe878d0b390" >
+                                <attribute name="type" value="p.char" id="96" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="97" addr="0x7fe878d0b670" >
+            <attributelist id="98" addr="0x7fe878d0b670" >
+                <kwargs id="99" addr="0x7fe878d0b4b0" >
+                    <attributelist id="100" addr="0x7fe878d0b4b0" >
+                        <attribute name="name" value="warning" id="101" addr="0x7fe878d18ab0" />
+                        <attribute name="value" value="451:Setting a const char * variable may leak memory." id="102" addr="0x7fe878d18ab0" />
+                    </attributelist >
+                    <kwargssitem id="103" addr="0x7fe878d0b4d0" >
+                        <attributelist id="104" addr="0x7fe878d0b4d0" >
+                        </attributelist >
+                    </kwargssitem >
+                    <kwargssitem id="105" addr="0x7fe878d0b490" >
+                        <attributelist id="106" addr="0x7fe878d0b490" >
+                        </attributelist >
+                    </kwargssitem >
+                </kwargs >
+                <attribute name="code" value="{&#10;  if ($input) {&#10;     $1 = ($1_type) malloc(strlen((const char *)$input)+1);&#10;     strcpy((char *)$1, (const char *)$input);&#10;  } else {&#10;     $1 = 0;&#10;  }&#10;}" id="107" addr="0x7fe878d18ab0" />
+                <attribute name="method" value="memberin" id="108" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <typemapitem id="109" addr="0x7fe878d0b5b0" >
+                <attributelist id="110" addr="0x7fe878d0b5b0" >
+                    <parmlist id="111" addr="0x7fe878d0b5f0" >
+                        <parm id="112">
+                            <attributelist id="113" addr="0x7fe878d0b5f0" >
+                                <attribute name="type" value="p.q(const).char" id="114" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="115" addr="0x7fe878d0b850" >
+            <attributelist id="116" addr="0x7fe878d0b850" >
+                <attribute name="code" value="{&#10;  free($1);&#10;  if ($input) {&#10;     $1 = ($1_type) malloc(strlen((const char *)$input)+1);&#10;     strcpy((char *)$1, (const char *)$input);&#10;  } else {&#10;     $1 = 0;&#10;  }&#10;}" id="117" addr="0x7fe878d18ab0" />
+                <attribute name="method" value="globalin" id="118" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <typemapitem id="119" addr="0x7fe878d0b790" >
+                <attributelist id="120" addr="0x7fe878d0b790" >
+                    <parmlist id="121" addr="0x7fe878d0b7d0" >
+                        <parm id="122">
+                            <attributelist id="123" addr="0x7fe878d0b7d0" >
+                                <attribute name="type" value="p.char" id="124" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="125" addr="0x7fe878d0bab0" >
+            <attributelist id="126" addr="0x7fe878d0bab0" >
+                <kwargs id="127" addr="0x7fe878d0b8f0" >
+                    <attributelist id="128" addr="0x7fe878d0b8f0" >
+                        <attribute name="name" value="warning" id="129" addr="0x7fe878d18ab0" />
+                        <attribute name="value" value="451:Setting a const char * variable may leak memory." id="130" addr="0x7fe878d18ab0" />
+                    </attributelist >
+                    <kwargssitem id="131" addr="0x7fe878d0b910" >
+                        <attributelist id="132" addr="0x7fe878d0b910" >
+                        </attributelist >
+                    </kwargssitem >
+                    <kwargssitem id="133" addr="0x7fe878d0b8d0" >
+                        <attributelist id="134" addr="0x7fe878d0b8d0" >
+                        </attributelist >
+                    </kwargssitem >
+                </kwargs >
+                <attribute name="code" value="{&#10;  if ($input) {&#10;     $1 = ($1_type) malloc(strlen((const char *)$input)+1);&#10;     strcpy((char *)$1, (const char *)$input);&#10;  } else {&#10;     $1 = 0;&#10;  }&#10;}" id="135" addr="0x7fe878d18ab0" />
+                <attribute name="method" value="globalin" id="136" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <typemapitem id="137" addr="0x7fe878d0b9f0" >
+                <attributelist id="138" addr="0x7fe878d0b9f0" >
+                    <parmlist id="139" addr="0x7fe878d0ba30" >
+                        <parm id="140">
+                            <attributelist id="141" addr="0x7fe878d0ba30" >
+                                <attribute name="type" value="p.q(const).char" id="142" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="143" addr="0x7fe878d0bcf0" >
+            <attributelist id="144" addr="0x7fe878d0bcf0" >
+                <attribute name="code" value="{&#10;  if($input) {&#10;    strncpy((char*)$1, (const char *)$input, $1_dim0-1);&#10;    $1[$1_dim0-1] = 0;&#10;  } else {&#10;    $1[0] = 0;&#10;  }&#10;}" id="145" addr="0x7fe878d18ab0" />
+                <attribute name="method" value="memberin" id="146" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <typemapitem id="147" addr="0x7fe878d0bc30" >
+                <attributelist id="148" addr="0x7fe878d0bc30" >
+                    <parmlist id="149" addr="0x7fe878d0bc70" >
+                        <parm id="150">
+                            <attributelist id="151" addr="0x7fe878d0bc70" >
+                                <attribute name="type" value="a(ANY).char" id="152" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="153" addr="0x7fe878d0bf10" >
+            <attributelist id="154" addr="0x7fe878d0bf10" >
+                <attribute name="code" value="{&#10;  if($input) {&#10;    strncpy((char*)$1, (const char *)$input, $1_dim0-1);&#10;    $1[$1_dim0-1] = 0;&#10;  } else {&#10;    $1[0] = 0;&#10;  }&#10;}" id="155" addr="0x7fe878d18ab0" />
+                <attribute name="method" value="globalin" id="156" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <typemapitem id="157" addr="0x7fe878d0be50" >
+                <attributelist id="158" addr="0x7fe878d0be50" >
+                    <parmlist id="159" addr="0x7fe878d0be90" >
+                        <parm id="160">
+                            <attributelist id="161" addr="0x7fe878d0be90" >
+                                <attribute name="type" value="a(ANY).char" id="162" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="163" addr="0x7fe878d0c0f0" >
+            <attributelist id="164" addr="0x7fe878d0c0f0" >
+                <attribute name="code" value="{&#10;  if ($input) strcpy((char *)$1, (const char *)$input);&#10;  else $1[0] = 0;&#10;}" id="165" addr="0x7fe878d18ab0" />
+                <attribute name="method" value="memberin" id="166" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <typemapitem id="167" addr="0x7fe878d0c030" >
+                <attributelist id="168" addr="0x7fe878d0c030" >
+                    <parmlist id="169" addr="0x7fe878d0c070" >
+                        <parm id="170">
+                            <attributelist id="171" addr="0x7fe878d0c070" >
+                                <attribute name="type" value="a().char" id="172" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="173" addr="0x7fe878d0c2d0" >
+            <attributelist id="174" addr="0x7fe878d0c2d0" >
+                <attribute name="code" value="{&#10;  if ($input) strcpy((char *)$1, (const char *)$input);&#10;  else $1[0] = 0;&#10;}" id="175" addr="0x7fe878d18ab0" />
+                <attribute name="method" value="globalin" id="176" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <typemapitem id="177" addr="0x7fe878d0c210" >
+                <attributelist id="178" addr="0x7fe878d0c210" >
+                    <parmlist id="179" addr="0x7fe878d0c250" >
+                        <parm id="180">
+                            <attributelist id="181" addr="0x7fe878d0c250" >
+                                <attribute name="type" value="a().char" id="182" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="183" addr="0x7fe878d0c4f0" >
+            <attributelist id="184" addr="0x7fe878d0c4f0" >
+                <attribute name="code" value="{&#10;  size_t ii;&#10;  $1_basetype *b = ($1_basetype *) $1;&#10;  for (ii = 0; ii &lt; (size_t)$1_size; ii++) b[ii] = *(($1_basetype *) $input + ii);&#10;}" id="185" addr="0x7fe878d18ab0" />
+                <attribute name="method" value="memberin" id="186" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <typemapitem id="187" addr="0x7fe878d0c430" >
+                <attributelist id="188" addr="0x7fe878d0c430" >
+                    <parmlist id="189" addr="0x7fe878d0c470" >
+                        <parm id="190">
+                            <attributelist id="191" addr="0x7fe878d0c470" >
+                                <attribute name="type" value="a(ANY).SWIGTYPE" id="192" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="193" addr="0x7fe878d0c710" >
+            <attributelist id="194" addr="0x7fe878d0c710" >
+                <attribute name="code" value="{&#10;  size_t ii;&#10;  $1_basetype *b = ($1_basetype *) $1;&#10;  for (ii = 0; ii &lt; (size_t)$1_size; ii++) b[ii] = *(($1_basetype *) $input + ii);&#10;}" id="195" addr="0x7fe878d18ab0" />
+                <attribute name="method" value="globalin" id="196" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <typemapitem id="197" addr="0x7fe878d0c650" >
+                <attributelist id="198" addr="0x7fe878d0c650" >
+                    <parmlist id="199" addr="0x7fe878d0c690" >
+                        <parm id="200">
+                            <attributelist id="201" addr="0x7fe878d0c690" >
+                                <attribute name="type" value="a(ANY).SWIGTYPE" id="202" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="203" addr="0x7fe878d0c970" >
+            <attributelist id="204" addr="0x7fe878d0c970" >
+                <attribute name="code" value="{&#10;  $basetype (*inp)[$1_dim1] = ($basetype (*)[$1_dim1])($input);&#10;  $basetype (*dest)[$1_dim1] = ($basetype (*)[$1_dim1])($1);&#10;  size_t ii = 0;&#10;  for (; ii &lt; $1_dim0; ++ii) {&#10;    $basetype *ip = inp[ii];&#10;    $basetype *dp = dest[ii];&#10;    size_t jj = 0;&#10;    for (; jj &lt; $1_dim1; ++jj) dp[jj] = ip[jj];&#10;  }&#10;}" id="205" addr="0x7fe878d18ab0" />
+                <attribute name="method" value="memberin" id="206" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <typemapitem id="207" addr="0x7fe878d0c850" >
+                <attributelist id="208" addr="0x7fe878d0c850" >
+                    <parmlist id="209" addr="0x7fe878d0c8f0" >
+                        <parm id="210">
+                            <attributelist id="211" addr="0x7fe878d0c8f0" >
+                                <attribute name="type" value="a(ANY).a(ANY).SWIGTYPE" id="212" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <typemap id="213" addr="0x7fe878d0cbd0" >
+            <attributelist id="214" addr="0x7fe878d0cbd0" >
+                <attribute name="code" value="{&#10;  $basetype (*inp)[$1_dim1] = ($basetype (*)[$1_dim1])($input);&#10;  $basetype (*dest)[$1_dim1] = ($basetype (*)[$1_dim1])($1);&#10;  size_t ii = 0;&#10;  for (; ii &lt; $1_dim0; ++ii) {&#10;    $basetype *ip = inp[ii];&#10;    $basetype *dp = dest[ii];&#10;    size_t jj = 0;&#10;    for (; jj &lt; $1_dim1; ++jj) dp[jj] = ip[jj];&#10;  }&#10;}" id="215" addr="0x7fe878d18ab0" />
+                <attribute name="method" value="globalin" id="216" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <typemapitem id="217" addr="0x7fe878d0cab0" >
+                <attributelist id="218" addr="0x7fe878d0cab0" >
+                    <parmlist id="219" addr="0x7fe878d0cb50" >
+                        <parm id="220">
+                            <attributelist id="221" addr="0x7fe878d0cb50" >
+                                <attribute name="type" value="a(ANY).a(ANY).SWIGTYPE" id="222" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                </attributelist >
+             
+            </typemapitem >
+        </typemap >
+        <insert id="223" addr="0x7fe878d0ccb0" >
+            <attributelist id="224" addr="0x7fe878d0ccb0" >
+                <attribute name="code" value="/* -----------------------------------------------------------------------------&#10; *  This section contains generic SWIG labels for method/variable&#10; *  declarations/attributes, and other compiler dependent labels.&#10; * ----------------------------------------------------------------------------- */&#10;&#10;/* template workaround for compilers that cannot correctly implement the C++ standard */&#10;#ifndef SWIGTEMPLATEDISAMBIGUATOR&#10;# if defined(__SUNPRO_CC) &amp;&amp; (__SUNPRO_CC &lt;= 0x560)&#10;#  define SWIGTEMPLATEDISAMBIGUATOR template&#10;# elif defined(__HP_aCC)&#10;/* Needed even with `aCC -AA' when `aCC -V' reports HP ANSI C++ B3910B A.03.55 */&#10;/* If we find a maximum version that requires this, the test would be __HP_aCC &lt;= 35500 for A.03.55 */&#10;#  define SWIGTEMPLATEDISAMBIGUATOR template&#10;# else&#10;#  define SWIGTEMPLATEDISAMBIGUATOR&#10;# endif&#10;#endif&#10;&#10;/* inline attribute */&#10;#ifndef SWIGINLINE&#10;# if defined(__cplusplus) || (defined(__GNUC__) &amp;&amp; !defined(__STRICT_ANSI__))&#10;#   define SWIGINLINE inline&#10;# else&#10;#   define SWIGINLINE&#10;# endif&#10;#endif&#10;&#10;/* attribute recognised by some compilers to avoid 'unused' warnings */&#10;#ifndef SWIGUNUSED&#10;# if defined(__GNUC__)&#10;#   if !(defined(__cplusplus)) || (__GNUC__ > 3 || (__GNUC__ == 3 &amp;&amp; __GNUC_MINOR__ >= 4))&#10;#     define SWIGUNUSED __attribute__ ((__unused__))&#10;#   else&#10;#     define SWIGUNUSED&#10;#   endif&#10;# elif defined(__ICC)&#10;#   define SWIGUNUSED __attribute__ ((__unused__))&#10;# else&#10;#   define SWIGUNUSED&#10;# endif&#10;#endif&#10;&#10;#ifndef SWIG_MSC_UNSUPPRESS_4505&#10;# if defined(_MSC_VER)&#10;#   pragma warning(disable : 4505) /* unreferenced local function has been removed */&#10;# endif&#10;#endif&#10;&#10;#ifndef SWIGUNUSEDPARM&#10;# ifdef __cplusplus&#10;#   define SWIGUNUSEDPARM(p)&#10;# else&#10;#   define SWIGUNUSEDPARM(p) p SWIGUNUSED&#10;# endif&#10;#endif&#10;&#10;/* internal SWIG method */&#10;#ifndef SWIGINTERN&#10;# define SWIGINTERN static SWIGUNUSED&#10;#endif&#10;&#10;/* internal inline SWIG method */&#10;#ifndef SWIGINTERNINLINE&#10;# define SWIGINTERNINLINE SWIGINTERN SWIGINLINE&#10;#endif&#10;&#10;/* exporting methods */&#10;#if defined(__GNUC__)&#10;#  if (__GNUC__ >= 4) || (__GNUC__ == 3 &amp;&amp; __GNUC_MINOR__ >= 4)&#10;#    ifndef GCC_HASCLASSVISIBILITY&#10;#      define GCC_HASCLASSVISIBILITY&#10;#    endif&#10;#  endif&#10;#endif&#10;&#10;#ifndef SWIGEXPORT&#10;# if defined(_WIN32) || defined(__WIN32__) || defined(__CYGWIN__)&#10;#   if defined(STATIC_LINKED)&#10;#     define SWIGEXPORT&#10;#   else&#10;#     define SWIGEXPORT __declspec(dllexport)&#10;#   endif&#10;# else&#10;#   if defined(__GNUC__) &amp;&amp; defined(GCC_HASCLASSVISIBILITY)&#10;#     define SWIGEXPORT __attribute__ ((visibility(&quot;default&quot;)))&#10;#   else&#10;#     define SWIGEXPORT&#10;#   endif&#10;# endif&#10;#endif&#10;&#10;/* calling conventions for Windows */&#10;#ifndef SWIGSTDCALL&#10;# if defined(_WIN32) || defined(__WIN32__) || defined(__CYGWIN__)&#10;#   define SWIGSTDCALL __stdcall&#10;# else&#10;#   define SWIGSTDCALL&#10;# endif&#10;#endif&#10;&#10;/* Deal with Microsoft's attempt at deprecating C standard runtime functions */&#10;#if !defined(SWIG_NO_CRT_SECURE_NO_DEPRECATE) &amp;&amp; defined(_MSC_VER) &amp;&amp; !defined(_CRT_SECURE_NO_DEPRECATE)&#10;# define _CRT_SECURE_NO_DEPRECATE&#10;#endif&#10;&#10;/* Deal with Microsoft's attempt at deprecating methods in the standard C++ library */&#10;#if !defined(SWIG_NO_SCL_SECURE_NO_DEPRECATE) &amp;&amp; defined(_MSC_VER) &amp;&amp; !defined(_SCL_SECURE_NO_DEPRECATE)&#10;# define _SCL_SECURE_NO_DEPRECATE&#10;#endif&#10;&#10;/* Deal with Apple's deprecated 'AssertMacros.h' from Carbon-framework */&#10;#if defined(__APPLE__) &amp;&amp; !defined(__ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES)&#10;# define __ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES 0&#10;#endif&#10;&#10;/* Intel's compiler complains if a variable which was never initialised is&#10; * cast to void, which is a common idiom which we use to indicate that we&#10; * are aware a variable isn't used.  So we just silence that warning.&#10; * See: https://github.com/swig/swig/issues/192 for more discussion.&#10; */&#10;#ifdef __INTEL_COMPILER&#10;# pragma warning disable 592&#10;#endif&#10;" id="225" addr="0x7fe878d18ab0" />
+                <attribute name="section" value="runtime" id="226" addr="0x7fe878d18ab0" />
+            </attributelist >
+         
+        </insert >
+    </include >
+    <include id="227" addr="0x7fe878d0ce30" >
+        <attributelist id="228" addr="0x7fe878d0ce30" >
+            <attribute name="name" value="i2psam.swigcxx" id="229" addr="0x7fe878d18ab0" />
+            <attribute name="module" value="" id="230" addr="0x7fe878d17410" />
+            <attribute name="options" value="0x7fe878d0cd90" id="231" addr="0x7fe878d0cd90" />
+        </attributelist >
+
+        <insert id="232" addr="0x7fe878d0ce90" >
+            <attributelist id="233" addr="0x7fe878d0ce90" >
+                <attribute name="code" value="&#10;    #include &quot;i2psam.h&quot;&#10;    #include &quot;compat.h&quot;&#10;    #include &quot;i2psam-c.h&quot;&#10;" id="234" addr="0x7fe878d18ab0" />
+            </attributelist >
+         
+        </insert >
+        <include id="235" addr="0x7fe878d0cf10" >
+            <attributelist id="236" addr="0x7fe878d0cf10" >
+                <attribute name="name" value="i2psam.h" id="237" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <constant id="238" addr="0x7fe878d0cfd0" >
+                <attributelist id="239" addr="0x7fe878d0cfd0" >
+                    <attribute name="sym_name" value="SAM_DEFAULT_ADDRESS" id="240" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_DEFAULT_ADDRESS" id="241" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;127.0.0.1&quot;" id="242" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="243" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="127.0.0.1" id="244" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="245" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="246" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="247" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="248" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="249" addr="0x7fe878d0d290" >
+                <attributelist id="250" addr="0x7fe878d0d290" >
+                    <attribute name="sym_name" value="SAM_DEFAULT_PORT" id="251" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_DEFAULT_PORT" id="252" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="7656" id="253" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="254" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="7656" id="255" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="256" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="257" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="258" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="259" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="260" addr="0x7fe878d0d3f0" >
+                <attributelist id="261" addr="0x7fe878d0d3f0" >
+                    <attribute name="sym_name" value="SAM_GENERATE_MY_DESTINATION" id="262" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_GENERATE_MY_DESTINATION" id="263" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;TRANSIENT&quot;" id="264" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="265" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="TRANSIENT" id="266" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="267" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="268" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="269" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="270" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="271" addr="0x7fe878d0d550" >
+                <attributelist id="272" addr="0x7fe878d0d550" >
+                    <attribute name="sym_name" value="SAM_MY_NAME" id="273" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_MY_NAME" id="274" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;ME&quot;" id="275" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="276" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="ME" id="277" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="278" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="279" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="280" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="281" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="282" addr="0x7fe878d0d6b0" >
+                <attributelist id="283" addr="0x7fe878d0d6b0" >
+                    <attribute name="sym_name" value="SAM_DEFAULT_I2P_OPTIONS" id="284" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_DEFAULT_I2P_OPTIONS" id="285" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;&quot;" id="286" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="287" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="" id="288" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="289" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="290" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="291" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="292" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="293" addr="0x7fe878d0d810" >
+                <attributelist id="294" addr="0x7fe878d0d810" >
+                    <attribute name="sym_name" value="SAM_SIGNATURE_TYPE" id="295" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_SIGNATURE_TYPE" id="296" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;ECDSA_SHA256_P256&quot;" id="297" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="298" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="ECDSA_SHA256_P256" id="299" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="300" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="301" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="302" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="303" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="304" addr="0x7fe878d0d970" >
+                <attributelist id="305" addr="0x7fe878d0d970" >
+                    <attribute name="sym_name" value="SAM_NAME_INBOUND_QUANTITY" id="306" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_NAME_INBOUND_QUANTITY" id="307" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;inbound.quantity&quot;" id="308" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="309" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="inbound.quantity" id="310" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="311" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="312" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="313" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="314" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="315" addr="0x7fe878d0dad0" >
+                <attributelist id="316" addr="0x7fe878d0dad0" >
+                    <attribute name="sym_name" value="SAM_DEFAULT_INBOUND_QUANTITY" id="317" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_DEFAULT_INBOUND_QUANTITY" id="318" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="3" id="319" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="320" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="3" id="321" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="322" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="323" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="324" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="325" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="326" addr="0x7fe878d0dc30" >
+                <attributelist id="327" addr="0x7fe878d0dc30" >
+                    <attribute name="sym_name" value="SAM_NAME_INBOUND_LENGTH" id="328" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_NAME_INBOUND_LENGTH" id="329" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;inbound.length&quot;" id="330" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="331" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="inbound.length" id="332" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="333" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="334" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="335" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="336" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="337" addr="0x7fe878d0dd90" >
+                <attributelist id="338" addr="0x7fe878d0dd90" >
+                    <attribute name="sym_name" value="SAM_DEFAULT_INBOUND_LENGTH" id="339" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_DEFAULT_INBOUND_LENGTH" id="340" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="3" id="341" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="342" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="3" id="343" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="344" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="345" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="346" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="347" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="348" addr="0x7fe878d0def0" >
+                <attributelist id="349" addr="0x7fe878d0def0" >
+                    <attribute name="sym_name" value="SAM_NAME_INBOUND_LENGTHVARIANCE" id="350" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_NAME_INBOUND_LENGTHVARIANCE" id="351" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;inbound.lengthVariance&quot;" id="352" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="353" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="inbound.lengthVariance" id="354" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="355" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="356" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="357" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="358" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="359" addr="0x7fe878d0e050" >
+                <attributelist id="360" addr="0x7fe878d0e050" >
+                    <attribute name="sym_name" value="SAM_DEFAULT_INBOUND_LENGTHVARIANCE" id="361" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_DEFAULT_INBOUND_LENGTHVARIANCE" id="362" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="0" id="363" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="364" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="0" id="365" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="366" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="367" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="368" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="369" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="370" addr="0x7fe878d0e1b0" >
+                <attributelist id="371" addr="0x7fe878d0e1b0" >
+                    <attribute name="sym_name" value="SAM_NAME_INBOUND_BACKUPQUANTITY" id="372" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_NAME_INBOUND_BACKUPQUANTITY" id="373" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;inbound.backupQuantity&quot;" id="374" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="375" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="inbound.backupQuantity" id="376" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="377" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="378" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="379" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="380" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="381" addr="0x7fe878d0e310" >
+                <attributelist id="382" addr="0x7fe878d0e310" >
+                    <attribute name="sym_name" value="SAM_DEFAULT_INBOUND_BACKUPQUANTITY" id="383" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_DEFAULT_INBOUND_BACKUPQUANTITY" id="384" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="1" id="385" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="386" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="1" id="387" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="388" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="389" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="390" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="391" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="392" addr="0x7fe878d0e470" >
+                <attributelist id="393" addr="0x7fe878d0e470" >
+                    <attribute name="sym_name" value="SAM_NAME_INBOUND_ALLOWZEROHOP" id="394" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_NAME_INBOUND_ALLOWZEROHOP" id="395" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;inbound.allowZeroHop&quot;" id="396" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="397" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="inbound.allowZeroHop" id="398" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="399" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="400" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="401" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="402" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="403" addr="0x7fe878d0e5d0" >
+                <attributelist id="404" addr="0x7fe878d0e5d0" >
+                    <attribute name="sym_name" value="SAM_NAME_INBOUND_IPRESTRICTION" id="405" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_NAME_INBOUND_IPRESTRICTION" id="406" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;inbound.IPRestriction&quot;" id="407" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="408" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="inbound.IPRestriction" id="409" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="410" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="411" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="412" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="413" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="414" addr="0x7fe878d0e730" >
+                <attributelist id="415" addr="0x7fe878d0e730" >
+                    <attribute name="sym_name" value="SAM_DEFAULT_INBOUND_IPRESTRICTION" id="416" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_DEFAULT_INBOUND_IPRESTRICTION" id="417" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="2" id="418" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="419" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="2" id="420" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="421" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="422" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="423" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="424" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="425" addr="0x7fe878d0e890" >
+                <attributelist id="426" addr="0x7fe878d0e890" >
+                    <attribute name="sym_name" value="SAM_NAME_OUTBOUND_QUANTITY" id="427" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_NAME_OUTBOUND_QUANTITY" id="428" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;outbound.quantity&quot;" id="429" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="430" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="outbound.quantity" id="431" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="432" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="433" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="434" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="435" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="436" addr="0x7fe878d0e9f0" >
+                <attributelist id="437" addr="0x7fe878d0e9f0" >
+                    <attribute name="sym_name" value="SAM_DEFAULT_OUTBOUND_QUANTITY" id="438" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_DEFAULT_OUTBOUND_QUANTITY" id="439" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="3" id="440" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="441" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="3" id="442" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="443" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="444" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="445" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="446" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="447" addr="0x7fe878d0eb50" >
+                <attributelist id="448" addr="0x7fe878d0eb50" >
+                    <attribute name="sym_name" value="SAM_NAME_OUTBOUND_LENGTH" id="449" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_NAME_OUTBOUND_LENGTH" id="450" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;outbound.length&quot;" id="451" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="452" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="outbound.length" id="453" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="454" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="455" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="456" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="457" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="458" addr="0x7fe878d0ecb0" >
+                <attributelist id="459" addr="0x7fe878d0ecb0" >
+                    <attribute name="sym_name" value="SAM_DEFAULT_OUTBOUND_LENGTH" id="460" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_DEFAULT_OUTBOUND_LENGTH" id="461" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="3" id="462" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="463" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="3" id="464" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="465" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="466" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="467" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="468" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="469" addr="0x7fe878d0ee10" >
+                <attributelist id="470" addr="0x7fe878d0ee10" >
+                    <attribute name="sym_name" value="SAM_NAME_OUTBOUND_LENGTHVARIANCE" id="471" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_NAME_OUTBOUND_LENGTHVARIANCE" id="472" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;outbound.lengthVariance&quot;" id="473" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="474" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="outbound.lengthVariance" id="475" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="476" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="477" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="478" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="479" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="480" addr="0x7fe878d0ef70" >
+                <attributelist id="481" addr="0x7fe878d0ef70" >
+                    <attribute name="sym_name" value="SAM_DEFAULT_OUTBOUND_LENGTHVARIANCE" id="482" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_DEFAULT_OUTBOUND_LENGTHVARIANCE" id="483" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="0" id="484" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="485" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="0" id="486" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="487" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="488" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="489" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="490" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="491" addr="0x7fe878d0f0d0" >
+                <attributelist id="492" addr="0x7fe878d0f0d0" >
+                    <attribute name="sym_name" value="SAM_NAME_OUTBOUND_BACKUPQUANTITY" id="493" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_NAME_OUTBOUND_BACKUPQUANTITY" id="494" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;outbound.backupQuantity&quot;" id="495" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="496" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="outbound.backupQuantity" id="497" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="498" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="499" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="500" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="501" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="502" addr="0x7fe878d0f230" >
+                <attributelist id="503" addr="0x7fe878d0f230" >
+                    <attribute name="sym_name" value="SAM_DEFAULT_OUTBOUND_BACKUPQUANTITY" id="504" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_DEFAULT_OUTBOUND_BACKUPQUANTITY" id="505" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="1" id="506" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="507" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="1" id="508" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="509" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="510" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="511" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="512" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="513" addr="0x7fe878d0f390" >
+                <attributelist id="514" addr="0x7fe878d0f390" >
+                    <attribute name="sym_name" value="SAM_NAME_OUTBOUND_ALLOWZEROHOP" id="515" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_NAME_OUTBOUND_ALLOWZEROHOP" id="516" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;outbound.allowZeroHop&quot;" id="517" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="518" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="outbound.allowZeroHop" id="519" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="520" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="521" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="522" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="523" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="524" addr="0x7fe878d0f4f0" >
+                <attributelist id="525" addr="0x7fe878d0f4f0" >
+                    <attribute name="sym_name" value="SAM_NAME_OUTBOUND_IPRESTRICTION" id="526" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_NAME_OUTBOUND_IPRESTRICTION" id="527" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;outbound.IPRestriction&quot;" id="528" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="529" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="outbound.IPRestriction" id="530" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="531" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="532" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="533" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="534" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="535" addr="0x7fe878d0f650" >
+                <attributelist id="536" addr="0x7fe878d0f650" >
+                    <attribute name="sym_name" value="SAM_DEFAULT_OUTBOUND_IPRESTRICTION" id="537" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_DEFAULT_OUTBOUND_IPRESTRICTION" id="538" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="2" id="539" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="540" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="2" id="541" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="542" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="543" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="544" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="545" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="546" addr="0x7fe878d0f7b0" >
+                <attributelist id="547" addr="0x7fe878d0f7b0" >
+                    <attribute name="sym_name" value="SAM_NAME_OUTBOUND_PRIORITY" id="548" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SAM_NAME_OUTBOUND_PRIORITY" id="549" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="&quot;outbound.priority&quot;" id="550" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="551" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="outbound.priority" id="552" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="553" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="p.q(const).char" id="554" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="555" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="556" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+        </include >
+        <include id="557" addr="0x7fe878d0f8d0" >
+            <attributelist id="558" addr="0x7fe878d0f8d0" >
+                <attribute name="name" value="compat.h" id="559" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <cdecl id="560" addr="0x7fe878d0f9d0" >
+                <attributelist id="561" addr="0x7fe878d0f9d0" >
+                    <attribute name="sym_name" value="SOCKET" id="562" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SOCKET" id="563" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="" id="564" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="typedef" id="565" addr="0x7fe878d18ab0" />
+                    <attribute name="kind" value="typedef" id="566" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="u_int" id="567" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="568" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="569" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <constant id="570" addr="0x7fe878d0fc30" >
+                <attributelist id="571" addr="0x7fe878d0fc30" >
+                    <attribute name="sym_name" value="SOCKET_ERROR" id="572" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="SOCKET_ERROR" id="573" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="-1" id="574" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="575" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="-1" id="576" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="577" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="578" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="579" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="580" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="581" addr="0x7fe878d0fd90" >
+                <attributelist id="582" addr="0x7fe878d0fd90" >
+                    <attribute name="sym_name" value="MAX_PATH" id="583" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="MAX_PATH" id="584" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="1024" id="585" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="586" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="1024" id="587" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="588" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="589" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="590" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="591" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="592" addr="0x7fe878d0fef0" >
+                <attributelist id="593" addr="0x7fe878d0fef0" >
+                    <attribute name="sym_name" value="MSG_NOSIGNAL" id="594" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="MSG_NOSIGNAL" id="595" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="0" id="596" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="597" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="0" id="598" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="599" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="600" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="601" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="602" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="603" addr="0x7fe878d10050" >
+                <attributelist id="604" addr="0x7fe878d10050" >
+                    <attribute name="sym_name" value="PRIO_MAX" id="605" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="PRIO_MAX" id="606" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="20" id="607" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="608" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="20" id="609" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="610" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="611" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="612" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="613" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="614" addr="0x7fe878d101b0" >
+                <attributelist id="615" addr="0x7fe878d101b0" >
+                    <attribute name="sym_name" value="THREAD_PRIORITY_LOWEST" id="616" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="THREAD_PRIORITY_LOWEST" id="617" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="20" id="618" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="619" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="20" id="620" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="621" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="622" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="623" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="624" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="625" addr="0x7fe878d10310" >
+                <attributelist id="626" addr="0x7fe878d10310" >
+                    <attribute name="sym_name" value="THREAD_PRIORITY_BELOW_NORMAL" id="627" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="THREAD_PRIORITY_BELOW_NORMAL" id="628" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="2" id="629" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="630" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="2" id="631" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="632" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="633" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="634" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="635" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="636" addr="0x7fe878d10470" >
+                <attributelist id="637" addr="0x7fe878d10470" >
+                    <attribute name="sym_name" value="THREAD_PRIORITY_NORMAL" id="638" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="THREAD_PRIORITY_NORMAL" id="639" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="0" id="640" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="641" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="0" id="642" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="643" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="644" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="645" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="646" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <constant id="647" addr="0x7fe878d10630" >
+                <attributelist id="648" addr="0x7fe878d10630" >
+                    <attribute name="sym_name" value="THREAD_PRIORITY_ABOVE_NORMAL" id="649" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="THREAD_PRIORITY_ABOVE_NORMAL" id="650" addr="0x7fe878d18ab0" />
+                    <attribute name="rawval" value="(-2)" id="651" addr="0x7fe878d18ab0" />
+                    <attribute name="feature_immutable" value="1" id="652" addr="0x7fe878d18ab0" />
+                    <attribute name="value" value="(-2)" id="653" addr="0x7fe878d18ab0" />
+                    <attribute name="storage" value="%constant" id="654" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="655" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="656" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="657" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </constant >
+            <cdecl id="658" addr="0x7fe878d10a50" >
+                <attributelist id="659" addr="0x7fe878d10a50" >
+                    <attribute name="sym_name" value="strnlen_int" id="660" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="strnlen_int" id="661" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.q(const).char,size_t)." id="662" addr="0x7fe878d18ab0" />
+                    <parmlist id="663" addr="0x7fe878d10870" >
+                        <parm id="664">
+                            <attributelist id="665" addr="0x7fe878d10870" >
+                                <attribute name="name" value="start" id="666" addr="0x7fe878d18ab0" />
+                                <attribute name="type" value="p.q(const).char" id="667" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="668" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                        <parm id="669">
+                            <attributelist id="670" addr="0x7fe878d10990" >
+                                <attribute name="name" value="max_len" id="671" addr="0x7fe878d18ab0" />
+                                <attribute name="type" value="size_t" id="672" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="673" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="size_t" id="674" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="675" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="676" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+        </include >
+        <include id="677" addr="0x7fe878d10b90" >
+            <attributelist id="678" addr="0x7fe878d10b90" >
+                <attribute name="name" value="i2psam-c.h" id="679" addr="0x7fe878d18ab0" />
+            </attributelist >
+
+            <classforward id="680" addr="0x7fe878d10c30" >
+                <attributelist id="681" addr="0x7fe878d10c30" >
+                    <attribute name="sym_name" value="i2psam_destination" id="682" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_destination" id="683" addr="0x7fe878d18ab0" />
+                    <attribute name="kind" value="struct" id="684" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_weak" value="1" id="685" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="686" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="687" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </classforward >
+            <classforward id="688" addr="0x7fe878d10d70" >
+                <attributelist id="689" addr="0x7fe878d10d70" >
+                    <attribute name="sym_name" value="i2psam_stream_session" id="690" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_stream_session" id="691" addr="0x7fe878d18ab0" />
+                    <attribute name="kind" value="struct" id="692" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_weak" value="1" id="693" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="694" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="695" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </classforward >
+            <classforward id="696" addr="0x7fe878d10e90" >
+                <attributelist id="697" addr="0x7fe878d10e90" >
+                    <attribute name="sym_name" value="i2psam_socket" id="698" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_socket" id="699" addr="0x7fe878d18ab0" />
+                    <attribute name="kind" value="struct" id="700" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_weak" value="1" id="701" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="702" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="703" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </classforward >
+            <class id="704" addr="0x7fe878d10f90" >
+                <attributelist id="705" addr="0x7fe878d10f90" >
+                    <attribute name="name" value="i2psam_stream_settings" id="706" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="707" addr="0x7fe878cf6650" />
+                    <attribute name="symtab" value="0x7fe878d11130" id="708" addr="0x7fe878d11130" />
+                    <attribute name="allows_typedef" value="1" id="709" addr="0x7fe878d18ab0" />
+                    <attribute name="typepass_visit" value="1" id="710" addr="0x7fe878d18ab0" />
+                    <attribute name="allocate_visit" value="1" id="711" addr="0x7fe878d18ab0" />
+                    <attribute name="kind" value="struct" id="712" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_name" value="i2psam_stream_settings" id="713" addr="0x7fe878d18ab0" />
+                    <attribute name="allocate_default_constructor" value="1" id="714" addr="0x7fe878d18ab0" />
+                    <attribute name="allocate_default_destructor" value="1" id="715" addr="0x7fe878d18ab0" />
+                    <attribute name="allocate_copy_constructor" value="1" id="716" addr="0x7fe878d18ab0" />
+                    <attribute name="module" value="i2psam" id="717" addr="0x7fe878d173b0" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="718" addr="0x7fe878d18ab0" />
+                    <typescope id="719" addr="0x7fe878d17b10" >
+                        <attributelist id="720" addr="0x7fe878d17b10" >
+                            <attribute name="name" value="i2psam_stream_settings" id="721" addr="0x7fe878d18ab0" />
+                            <typetab id="722" addr="0x7fe878d17b30" >
+                                <attributelist id="723" addr="0x7fe878d17b30" >
+                                </attributelist >
+                            </typetab >
+                            <attribute name="parent" value="0x7fe878cf6750" id="724" addr="0x7fe878cf6750" />
+                            <attribute name="qname" value="i2psam_stream_settings" id="725" addr="0x7fe878d18ab0" />
+                            <attribute name="symtab" value="0x7fe878d11130" id="726" addr="0x7fe878d11130" />
+                        </attributelist >
+                        <typescopesitem id="727" addr="0x7fe878d17ab0" >
+                            <attributelist id="728" addr="0x7fe878d17ab0" >
+                            </attributelist >
+                        </typescopesitem >
+                        <typescopesitem id="729" addr="0x7fe878d17b30" >
+                            <attributelist id="730" addr="0x7fe878d17b30" >
+                            </attributelist >
+                        </typescopesitem >
+                        <typescopesitem id="731" addr="0x7fe878cf6750" >
+                            <attributelist id="732" addr="0x7fe878cf6750" >
+                                <attribute name="name" value="" id="733" addr="0x7fe878d18ab0" />
+                                <typetab id="734" addr="0x7fe878cf67b0" >
+                                    <attributelist id="735" addr="0x7fe878cf67b0" >
+                                        <attribute name="SOCKET" value="u_int" id="736" addr="0x7fe878d18ab0" />
+                                        <attribute name="i2psam_destination" value="i2psam_destination" id="737" addr="0x7fe878d18ab0" />
+                                        <attribute name="i2psam_stream_session" value="i2psam_stream_session" id="738" addr="0x7fe878d18ab0" />
+                                        <attribute name="struct i2psam_stream_settings" value="struct i2psam_stream_settings" id="739" addr="0x7fe878d18ab0" />
+                                        <attribute name="i2psam_socket" value="i2psam_socket" id="740" addr="0x7fe878d18ab0" />
+                                    </attributelist >
+                                    <typetabsitem id="741" addr="0x7fe878d17670" >
+                                        <attributelist id="742" addr="0x7fe878d17670" >
+                                        </attributelist >
+                                    </typetabsitem >
+                                    <typetabsitem id="743" addr="0x7fe878d177b0" >
+                                        <attributelist id="744" addr="0x7fe878d177b0" >
+                                        </attributelist >
+                                    </typetabsitem >
+                                    <typetabsitem id="745" addr="0x7fe878d17910" >
+                                        <attributelist id="746" addr="0x7fe878d17910" >
+                                        </attributelist >
+                                    </typetabsitem >
+                                    <typetabsitem id="747" addr="0x7fe878d17a50" >
+                                        <attributelist id="748" addr="0x7fe878d17a50" >
+                                        </attributelist >
+                                    </typetabsitem >
+                                    <typetabsitem id="749" addr="0x7fe878d17970" >
+                                        <attributelist id="750" addr="0x7fe878d17970" >
+                                        </attributelist >
+                                    </typetabsitem >
+                                </typetab >
+                            </attributelist >
+                        </typescopesitem >
+                        <typescopesitem id="751" addr="0x7fe878d17b50" >
+                            <attributelist id="752" addr="0x7fe878d17b50" >
+                            </attributelist >
+                        </typescopesitem >
+                        <typescopesitem id="753" addr="0x7fe878d11130" >
+                            <attributelist id="754" addr="0x7fe878d11130" >
+                                <attribute name="name" value="i2psam_stream_settings" id="755" addr="0x7fe878d18ab0" />
+                                <attribute name="csymtab" value="0x7fe878d11170" id="756" addr="0x7fe878d11170" />
+                                <attribute name="symtab" value="0x7fe878d11110" id="757" addr="0x7fe878d11110" />
+                            </attributelist >
+                        </typescopesitem >
+                    </typescope >
+                </attributelist >
+
+                <cdecl id="758" addr="0x7fe878d112b0" >
+                    <attributelist id="759" addr="0x7fe878d112b0" >
+                        <attribute name="ismember" value="1" id="760" addr="0x7fe878d18ab0" />
+                        <attribute name="sym_name" value="samhost" id="761" addr="0x7fe878d18ab0" />
+                        <attribute name="name" value="samhost" id="762" addr="0x7fe878d18ab0" />
+                        <attribute name="decl" value="p." id="763" addr="0x7fe878d18ab0" />
+                        <attribute name="access" value="public" id="764" addr="0x7fe878d18ab0" />
+                        <attribute name="kind" value="variable" id="765" addr="0x7fe878d18ab0" />
+                        <attribute name="type" value="q(const).char" id="766" addr="0x7fe878d18ab0" />
+                        <attribute name="sym_symtab" value="0x7fe878d11130" id="767" addr="0x7fe878d11130" />
+                        <attribute name="sym_overname" value="__SWIG_0" id="768" addr="0x7fe878d18ab0" />
+                    </attributelist >
+                 
+                </cdecl >
+                <cdecl id="769" addr="0x7fe878d11570" >
+                    <attributelist id="770" addr="0x7fe878d11570" >
+                        <attribute name="name" value="samport" id="771" addr="0x7fe878d18ab0" />
+                        <attribute name="ismember" value="1" id="772" addr="0x7fe878d18ab0" />
+                        <attribute name="sym_symtab" value="0x7fe878d11130" id="773" addr="0x7fe878d11130" />
+                        <attribute name="kind" value="variable" id="774" addr="0x7fe878d18ab0" />
+                        <attribute name="feature_immutable" value="1" id="775" addr="0x7fe878d18ab0" />
+                        <attribute name="sym_name" value="samport" id="776" addr="0x7fe878d18ab0" />
+                        <attribute name="decl" value="" id="777" addr="0x7fe878d18ab0" />
+                        <attribute name="access" value="public" id="778" addr="0x7fe878d18ab0" />
+                        <attribute name="type" value="q(const).uint16_t" id="779" addr="0x7fe878d18ab0" />
+                        <attribute name="sym_overname" value="__SWIG_0" id="780" addr="0x7fe878d18ab0" />
+                        <attribute name="hasconsttype" value="1" id="781" addr="0x7fe878d18ab0" />
+                    </attributelist >
+                 
+                </cdecl >
+                <cdecl id="782" addr="0x7fe878d117f0" >
+                    <attributelist id="783" addr="0x7fe878d117f0" >
+                        <attribute name="ismember" value="1" id="784" addr="0x7fe878d18ab0" />
+                        <attribute name="sym_name" value="nickname" id="785" addr="0x7fe878d18ab0" />
+                        <attribute name="name" value="nickname" id="786" addr="0x7fe878d18ab0" />
+                        <attribute name="decl" value="p." id="787" addr="0x7fe878d18ab0" />
+                        <attribute name="access" value="public" id="788" addr="0x7fe878d18ab0" />
+                        <attribute name="kind" value="variable" id="789" addr="0x7fe878d18ab0" />
+                        <attribute name="type" value="q(const).char" id="790" addr="0x7fe878d18ab0" />
+                        <attribute name="sym_symtab" value="0x7fe878d11130" id="791" addr="0x7fe878d11130" />
+                        <attribute name="sym_overname" value="__SWIG_0" id="792" addr="0x7fe878d18ab0" />
+                    </attributelist >
+                 
+                </cdecl >
+                <cdecl id="793" addr="0x7fe878d119d0" >
+                    <attributelist id="794" addr="0x7fe878d119d0" >
+                        <attribute name="ismember" value="1" id="795" addr="0x7fe878d18ab0" />
+                        <attribute name="sym_name" value="i2cp_opts" id="796" addr="0x7fe878d18ab0" />
+                        <attribute name="name" value="i2cp_opts" id="797" addr="0x7fe878d18ab0" />
+                        <attribute name="decl" value="p." id="798" addr="0x7fe878d18ab0" />
+                        <attribute name="access" value="public" id="799" addr="0x7fe878d18ab0" />
+                        <attribute name="kind" value="variable" id="800" addr="0x7fe878d18ab0" />
+                        <attribute name="type" value="q(const).char" id="801" addr="0x7fe878d18ab0" />
+                        <attribute name="sym_symtab" value="0x7fe878d11130" id="802" addr="0x7fe878d11130" />
+                        <attribute name="sym_overname" value="__SWIG_0" id="803" addr="0x7fe878d18ab0" />
+                    </attributelist >
+                 
+                </cdecl >
+                <cdecl id="804" addr="0x7fe878d11bb0" >
+                    <attributelist id="805" addr="0x7fe878d11bb0" >
+                        <attribute name="ismember" value="1" id="806" addr="0x7fe878d18ab0" />
+                        <attribute name="sym_name" value="destination" id="807" addr="0x7fe878d18ab0" />
+                        <attribute name="name" value="destination" id="808" addr="0x7fe878d18ab0" />
+                        <attribute name="decl" value="p." id="809" addr="0x7fe878d18ab0" />
+                        <attribute name="access" value="public" id="810" addr="0x7fe878d18ab0" />
+                        <attribute name="kind" value="variable" id="811" addr="0x7fe878d18ab0" />
+                        <attribute name="type" value="q(const).char" id="812" addr="0x7fe878d18ab0" />
+                        <attribute name="sym_symtab" value="0x7fe878d11130" id="813" addr="0x7fe878d11130" />
+                        <attribute name="sym_overname" value="__SWIG_0" id="814" addr="0x7fe878d18ab0" />
+                    </attributelist >
+                 
+                </cdecl >
+            </class >
+            <cdecl id="815" addr="0x7fe878d11f50" >
+                <attributelist id="816" addr="0x7fe878d11f50" >
+                    <attribute name="sym_name" value="i2psam_stream_session_new" id="817" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_stream_session_new" id="818" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_settings).p." id="819" addr="0x7fe878d18ab0" />
+                    <parmlist id="820" addr="0x7fe878d11ef0" >
+                        <parm id="821">
+                            <attributelist id="822" addr="0x7fe878d11ef0" >
+                                <attribute name="type" value="p.struct i2psam_stream_settings" id="823" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="824" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="825" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="struct i2psam_stream_session" id="826" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="827" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="828" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="829" addr="0x7fe878d121f0" >
+                <attributelist id="830" addr="0x7fe878d121f0" >
+                    <attribute name="sym_name" value="i2psam_stream_session_free" id="831" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_stream_session_free" id="832" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session)." id="833" addr="0x7fe878d18ab0" />
+                    <parmlist id="834" addr="0x7fe878d12150" >
+                        <parm id="835">
+                            <attributelist id="836" addr="0x7fe878d12150" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="837" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="838" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="839" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="void" id="840" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="841" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="842" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="843" addr="0x7fe878d12490" >
+                <attributelist id="844" addr="0x7fe878d12490" >
+                    <attribute name="sym_name" value="i2psam_get_samhost" id="845" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_get_samhost" id="846" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session).p." id="847" addr="0x7fe878d18ab0" />
+                    <parmlist id="848" addr="0x7fe878d12430" >
+                        <parm id="849">
+                            <attributelist id="850" addr="0x7fe878d12430" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="851" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="852" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="853" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="q(const).char" id="854" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="855" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="856" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="857" addr="0x7fe878d12750" >
+                <attributelist id="858" addr="0x7fe878d12750" >
+                    <attribute name="sym_name" value="i2psam_get_samport" id="859" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_get_samport" id="860" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session)." id="861" addr="0x7fe878d18ab0" />
+                    <parmlist id="862" addr="0x7fe878d126b0" >
+                        <parm id="863">
+                            <attributelist id="864" addr="0x7fe878d126b0" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="865" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="866" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="867" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="uint16_t" id="868" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="869" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="870" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="871" addr="0x7fe878d129f0" >
+                <attributelist id="872" addr="0x7fe878d129f0" >
+                    <attribute name="sym_name" value="i2psam_get_nickname" id="873" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_get_nickname" id="874" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session).p." id="875" addr="0x7fe878d18ab0" />
+                    <parmlist id="876" addr="0x7fe878d12990" >
+                        <parm id="877">
+                            <attributelist id="878" addr="0x7fe878d12990" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="879" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="880" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="881" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="q(const).char" id="882" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="883" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="884" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="885" addr="0x7fe878d12cb0" >
+                <attributelist id="886" addr="0x7fe878d12cb0" >
+                    <attribute name="sym_name" value="i2psam_get_session_id" id="887" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_get_session_id" id="888" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session).p." id="889" addr="0x7fe878d18ab0" />
+                    <parmlist id="890" addr="0x7fe878d12c50" >
+                        <parm id="891">
+                            <attributelist id="892" addr="0x7fe878d12c50" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="893" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="894" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="895" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="q(const).char" id="896" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="897" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="898" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="899" addr="0x7fe878d12f70" >
+                <attributelist id="900" addr="0x7fe878d12f70" >
+                    <attribute name="sym_name" value="i2psam_get_sam_min_version" id="901" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_get_sam_min_version" id="902" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session).p." id="903" addr="0x7fe878d18ab0" />
+                    <parmlist id="904" addr="0x7fe878d12f10" >
+                        <parm id="905">
+                            <attributelist id="906" addr="0x7fe878d12f10" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="907" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="908" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="909" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="q(const).char" id="910" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="911" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="912" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="913" addr="0x7fe878d13230" >
+                <attributelist id="914" addr="0x7fe878d13230" >
+                    <attribute name="sym_name" value="i2psam_get_sam_max_version" id="915" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_get_sam_max_version" id="916" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session).p." id="917" addr="0x7fe878d18ab0" />
+                    <parmlist id="918" addr="0x7fe878d131d0" >
+                        <parm id="919">
+                            <attributelist id="920" addr="0x7fe878d131d0" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="921" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="922" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="923" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="q(const).char" id="924" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="925" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="926" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="927" addr="0x7fe878d134f0" >
+                <attributelist id="928" addr="0x7fe878d134f0" >
+                    <attribute name="sym_name" value="i2psam_get_sam_version" id="929" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_get_sam_version" id="930" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session).p." id="931" addr="0x7fe878d18ab0" />
+                    <parmlist id="932" addr="0x7fe878d13490" >
+                        <parm id="933">
+                            <attributelist id="934" addr="0x7fe878d13490" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="935" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="936" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="937" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="q(const).char" id="938" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="939" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="940" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="941" addr="0x7fe878d137b0" >
+                <attributelist id="942" addr="0x7fe878d137b0" >
+                    <attribute name="sym_name" value="i2psam_get_i2cp_options" id="943" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_get_i2cp_options" id="944" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session).p." id="945" addr="0x7fe878d18ab0" />
+                    <parmlist id="946" addr="0x7fe878d13750" >
+                        <parm id="947">
+                            <attributelist id="948" addr="0x7fe878d13750" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="949" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="950" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="951" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="q(const).char" id="952" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="953" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="954" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="955" addr="0x7fe878d13a70" >
+                <attributelist id="956" addr="0x7fe878d13a70" >
+                    <attribute name="sym_name" value="i2psam_is_sick" id="957" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_is_sick" id="958" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session)." id="959" addr="0x7fe878d18ab0" />
+                    <parmlist id="960" addr="0x7fe878d139d0" >
+                        <parm id="961">
+                            <attributelist id="962" addr="0x7fe878d139d0" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="963" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="964" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="965" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="966" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="967" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="968" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="969" addr="0x7fe878d13e30" >
+                <attributelist id="970" addr="0x7fe878d13e30" >
+                    <attribute name="sym_name" value="i2psam_accept" id="971" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_accept" id="972" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session,int).p." id="973" addr="0x7fe878d18ab0" />
+                    <parmlist id="974" addr="0x7fe878d13cb0" >
+                        <parm id="975">
+                            <attributelist id="976" addr="0x7fe878d13cb0" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="977" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="978" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                        <parm id="979">
+                            <attributelist id="980" addr="0x7fe878d13db0" >
+                                <attribute name="name" value="silent" id="981" addr="0x7fe878d18ab0" />
+                                <attribute name="type" value="int" id="982" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="983" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="struct i2psam_socket" id="984" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="985" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="986" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="987" addr="0x7fe878d14350" >
+                <attributelist id="988" addr="0x7fe878d14350" >
+                    <attribute name="sym_name" value="i2psam_connect" id="989" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_connect" id="990" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session,p.q(const).char,int).p." id="991" addr="0x7fe878d18ab0" />
+                    <parmlist id="992" addr="0x7fe878d14090" >
+                        <parm id="993">
+                            <attributelist id="994" addr="0x7fe878d14090" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="995" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="996" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                        <parm id="997">
+                            <attributelist id="998" addr="0x7fe878d141b0" >
+                                <attribute name="name" value="destination" id="999" addr="0x7fe878d18ab0" />
+                                <attribute name="type" value="p.q(const).char" id="1000" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                        <parm id="1001">
+                            <attributelist id="1002" addr="0x7fe878d142d0" >
+                                <attribute name="name" value="silent" id="1003" addr="0x7fe878d18ab0" />
+                                <attribute name="type" value="int" id="1004" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="1005" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="struct i2psam_socket" id="1006" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="1007" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="1008" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="1009" addr="0x7fe878d14990" >
+                <attributelist id="1010" addr="0x7fe878d14990" >
+                    <attribute name="sym_name" value="i2psam_forward" id="1011" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_forward" id="1012" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session,p.q(const).char,uint16_t,int)." id="1013" addr="0x7fe878d18ab0" />
+                    <parmlist id="1014" addr="0x7fe878d14570" >
+                        <parm id="1015">
+                            <attributelist id="1016" addr="0x7fe878d14570" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="1017" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="1018" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                        <parm id="1019">
+                            <attributelist id="1020" addr="0x7fe878d14690" >
+                                <attribute name="name" value="host" id="1021" addr="0x7fe878d18ab0" />
+                                <attribute name="type" value="p.q(const).char" id="1022" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                        <parm id="1023">
+                            <attributelist id="1024" addr="0x7fe878d147b0" >
+                                <attribute name="name" value="port" id="1025" addr="0x7fe878d18ab0" />
+                                <attribute name="type" value="uint16_t" id="1026" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                        <parm id="1027">
+                            <attributelist id="1028" addr="0x7fe878d148d0" >
+                                <attribute name="name" value="silent" id="1029" addr="0x7fe878d18ab0" />
+                                <attribute name="type" value="int" id="1030" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="1031" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="1032" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="1033" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="1034" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="1035" addr="0x7fe878d14d70" >
+                <attributelist id="1036" addr="0x7fe878d14d70" >
+                    <attribute name="sym_name" value="i2psam_namelookup" id="1037" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_namelookup" id="1038" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session,p.q(const).char).p." id="1039" addr="0x7fe878d18ab0" />
+                    <parmlist id="1040" addr="0x7fe878d14bd0" >
+                        <parm id="1041">
+                            <attributelist id="1042" addr="0x7fe878d14bd0" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="1043" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="1044" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                        <parm id="1045">
+                            <attributelist id="1046" addr="0x7fe878d14cf0" >
+                                <attribute name="name" value="name" id="1047" addr="0x7fe878d18ab0" />
+                                <attribute name="type" value="p.q(const).char" id="1048" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="1049" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="q(const).char" id="1050" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="1051" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="1052" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="1053" addr="0x7fe878d15030" >
+                <attributelist id="1054" addr="0x7fe878d15030" >
+                    <attribute name="sym_name" value="i2psam_dest_generate" id="1055" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_dest_generate" id="1056" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session).p." id="1057" addr="0x7fe878d18ab0" />
+                    <parmlist id="1058" addr="0x7fe878d14fd0" >
+                        <parm id="1059">
+                            <attributelist id="1060" addr="0x7fe878d14fd0" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="1061" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="1062" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="1063" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="struct i2psam_destination" id="1064" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="1065" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="1066" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="1067" addr="0x7fe878d15530" >
+                <attributelist id="1068" addr="0x7fe878d15530" >
+                    <attribute name="sym_name" value="i2psam_stop_forwarding" id="1069" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_stop_forwarding" id="1070" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session,p.q(const).char,uint16_t)." id="1071" addr="0x7fe878d18ab0" />
+                    <parmlist id="1072" addr="0x7fe878d15230" >
+                        <parm id="1073">
+                            <attributelist id="1074" addr="0x7fe878d15230" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="1075" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="1076" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                        <parm id="1077">
+                            <attributelist id="1078" addr="0x7fe878d15350" >
+                                <attribute name="name" value="host" id="1079" addr="0x7fe878d18ab0" />
+                                <attribute name="type" value="p.q(const).char" id="1080" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                        <parm id="1081">
+                            <attributelist id="1082" addr="0x7fe878d15470" >
+                                <attribute name="name" value="port" id="1083" addr="0x7fe878d18ab0" />
+                                <attribute name="type" value="uint16_t" id="1084" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="1085" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="void" id="1086" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="1087" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="1088" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="1089" addr="0x7fe878d157b0" >
+                <attributelist id="1090" addr="0x7fe878d157b0" >
+                    <attribute name="sym_name" value="i2psam_stop_forwarding_all" id="1091" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_stop_forwarding_all" id="1092" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session)." id="1093" addr="0x7fe878d18ab0" />
+                    <parmlist id="1094" addr="0x7fe878d15710" >
+                        <parm id="1095">
+                            <attributelist id="1096" addr="0x7fe878d15710" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="1097" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="1098" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="1099" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="void" id="1100" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="1101" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="1102" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="1103" addr="0x7fe878d15a50" >
+                <attributelist id="1104" addr="0x7fe878d15a50" >
+                    <attribute name="sym_name" value="i2psam_get_my_destination" id="1105" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_get_my_destination" id="1106" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_stream_session).p." id="1107" addr="0x7fe878d18ab0" />
+                    <parmlist id="1108" addr="0x7fe878d159f0" >
+                        <parm id="1109">
+                            <attributelist id="1110" addr="0x7fe878d159f0" >
+                                <attribute name="type" value="p.struct i2psam_stream_session" id="1111" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="1112" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="1113" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="struct i2psam_destination" id="1114" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="1115" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="1116" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="1117" addr="0x7fe878d15f50" >
+                <attributelist id="1118" addr="0x7fe878d15f50" >
+                    <attribute name="sym_name" value="i2psam_write" id="1119" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_write" id="1120" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_socket,p.q(const).char,size_t)." id="1121" addr="0x7fe878d18ab0" />
+                    <parmlist id="1122" addr="0x7fe878d15c50" >
+                        <parm id="1123">
+                            <attributelist id="1124" addr="0x7fe878d15c50" >
+                                <attribute name="type" value="p.struct i2psam_socket" id="1125" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="1126" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                        <parm id="1127">
+                            <attributelist id="1128" addr="0x7fe878d15d70" >
+                                <attribute name="name" value="data" id="1129" addr="0x7fe878d18ab0" />
+                                <attribute name="type" value="p.q(const).char" id="1130" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                        <parm id="1131">
+                            <attributelist id="1132" addr="0x7fe878d15e90" >
+                                <attribute name="name" value="dlen" id="1133" addr="0x7fe878d18ab0" />
+                                <attribute name="type" value="size_t" id="1134" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="1135" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="void" id="1136" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="1137" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="1138" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="1139" addr="0x7fe878d162f0" >
+                <attributelist id="1140" addr="0x7fe878d162f0" >
+                    <attribute name="sym_name" value="i2psam_read" id="1141" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_read" id="1142" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_socket,p.size_t).p." id="1143" addr="0x7fe878d18ab0" />
+                    <parmlist id="1144" addr="0x7fe878d16170" >
+                        <parm id="1145">
+                            <attributelist id="1146" addr="0x7fe878d16170" >
+                                <attribute name="type" value="p.struct i2psam_socket" id="1147" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="1148" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                        <parm id="1149">
+                            <attributelist id="1150" addr="0x7fe878d16270" >
+                                <attribute name="name" value="dlen" id="1151" addr="0x7fe878d18ab0" />
+                                <attribute name="type" value="p.size_t" id="1152" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="1153" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="char" id="1154" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="1155" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="1156" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="1157" addr="0x7fe878d16590" >
+                <attributelist id="1158" addr="0x7fe878d16590" >
+                    <attribute name="sym_name" value="i2psam_socket_close" id="1159" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_socket_close" id="1160" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_socket)." id="1161" addr="0x7fe878d18ab0" />
+                    <parmlist id="1162" addr="0x7fe878d164f0" >
+                        <parm id="1163">
+                            <attributelist id="1164" addr="0x7fe878d164f0" >
+                                <attribute name="type" value="p.struct i2psam_socket" id="1165" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="1166" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="1167" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="void" id="1168" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="1169" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="1170" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="1171" addr="0x7fe878d16830" >
+                <attributelist id="1172" addr="0x7fe878d16830" >
+                    <attribute name="sym_name" value="i2psam_socket_is_ok" id="1173" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_socket_is_ok" id="1174" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_socket)." id="1175" addr="0x7fe878d18ab0" />
+                    <parmlist id="1176" addr="0x7fe878d16790" >
+                        <parm id="1177">
+                            <attributelist id="1178" addr="0x7fe878d16790" >
+                                <attribute name="type" value="p.struct i2psam_socket" id="1179" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="1180" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="1181" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="int" id="1182" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="1183" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="1184" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="1185" addr="0x7fe878d16ab0" >
+                <attributelist id="1186" addr="0x7fe878d16ab0" >
+                    <attribute name="sym_name" value="i2psam_socket_free" id="1187" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_socket_free" id="1188" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_socket)." id="1189" addr="0x7fe878d18ab0" />
+                    <parmlist id="1190" addr="0x7fe878d16a10" >
+                        <parm id="1191">
+                            <attributelist id="1192" addr="0x7fe878d16a10" >
+                                <attribute name="type" value="p.struct i2psam_socket" id="1193" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="1194" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="1195" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="void" id="1196" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="1197" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="1198" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="1199" addr="0x7fe878d16d50" >
+                <attributelist id="1200" addr="0x7fe878d16d50" >
+                    <attribute name="sym_name" value="i2psam_destination_priv" id="1201" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_destination_priv" id="1202" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_destination).p." id="1203" addr="0x7fe878d18ab0" />
+                    <parmlist id="1204" addr="0x7fe878d16cf0" >
+                        <parm id="1205">
+                            <attributelist id="1206" addr="0x7fe878d16cf0" >
+                                <attribute name="type" value="p.struct i2psam_destination" id="1207" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="1208" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="1209" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="q(const).char" id="1210" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="1211" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="1212" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="1213" addr="0x7fe878d17010" >
+                <attributelist id="1214" addr="0x7fe878d17010" >
+                    <attribute name="sym_name" value="i2psam_destination_pub" id="1215" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_destination_pub" id="1216" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_destination).p." id="1217" addr="0x7fe878d18ab0" />
+                    <parmlist id="1218" addr="0x7fe878d16fb0" >
+                        <parm id="1219">
+                            <attributelist id="1220" addr="0x7fe878d16fb0" >
+                                <attribute name="type" value="p.struct i2psam_destination" id="1221" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="1222" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="1223" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="q(const).char" id="1224" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="1225" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="1226" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+            <cdecl id="1227" addr="0x7fe878d172b0" >
+                <attributelist id="1228" addr="0x7fe878d172b0" >
+                    <attribute name="sym_name" value="i2psam_destination_free" id="1229" addr="0x7fe878d18ab0" />
+                    <attribute name="name" value="i2psam_destination_free" id="1230" addr="0x7fe878d18ab0" />
+                    <attribute name="decl" value="f(p.struct i2psam_destination)." id="1231" addr="0x7fe878d18ab0" />
+                    <parmlist id="1232" addr="0x7fe878d17210" >
+                        <parm id="1233">
+                            <attributelist id="1234" addr="0x7fe878d17210" >
+                                <attribute name="type" value="p.struct i2psam_destination" id="1235" addr="0x7fe878d18ab0" />
+                                <attribute name="compactdefargs" value="1" id="1236" addr="0x7fe878d18ab0" />
+                            </attributelist >
+                        </parm >
+                    </parmlist >
+                    <attribute name="kind" value="function" id="1237" addr="0x7fe878d18ab0" />
+                    <attribute name="type" value="void" id="1238" addr="0x7fe878d18ab0" />
+                    <attribute name="sym_symtab" value="0x7fe878cf6650" id="1239" addr="0x7fe878cf6650" />
+                    <attribute name="sym_overname" value="__SWIG_0" id="1240" addr="0x7fe878d18ab0" />
+                </attributelist >
+             
+            </cdecl >
+        </include >
+        <module id="1241" addr="0x7fe878d173b0" >
+            <attributelist id="1242" addr="0x7fe878d173b0" >
+                <attribute name="name" value="i2psam" id="1243" addr="0x7fe878d18ab0" />
+            </attributelist >
+         
+        </module >
+    </include >
+</top >
